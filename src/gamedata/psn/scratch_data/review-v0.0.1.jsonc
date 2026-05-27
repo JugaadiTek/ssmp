@@ -1,0 +1,27 @@
+{ "games": [
+    { "game": { "id": 1, "name": "Towerfall Ascension" }, "local_multiplayer": {
+      "modes": [
+        {
+          "type": "co-op", /* co-op/pve, pvp, team, katamari */
+          "mp": [ 2, 3, 4 ], /* this is an array instead of (min/max) because some games might be 2-4 players, but not 3 */
+          "style": "shared-screen", /* shared-screen, split-screen, dynamic-switch, hotseat, katamari */
+          "game": "real-time", /* real-time, turn-based, controller sharing, tag-team */
+          "menu": "pause" /* Individual Menus: pause, blocking, non-blocking, null */
+        },
+        { "type": "pvp",    "mp": [ 2, 3, 4 ], "style": "shared-screen", "menu": null },
+        { "type": "team",   "mp": [ 2, 4 ],    "style": "shared-screen", "menu": null }
+      ]
+    },
+    "concensus": { "local-mp-fans": "👍🏼", /* 👍🏼: good, 🫳🏼: meh/fine, 👎🏼: bad, null */
+      "tags": {
+        "good": [ "competitive-play", "leveling-system", "new-player-experience", "replayability", "story", "visuals" ],
+        "meh":  [ "co-op", "pve" ],
+        "bad":  [ "sp-style-menus" ]
+      }
+    } }
+  ],
+  "tag-definitions": [
+    { "tag": "sp-style-menus",          "description": "Single-player style menus in multiplayer. This means that the menu either breaks or is a clunky afterthought that holds back the multiplayer experience." },
+    { "tag": "competitive-play",        "description": "The game is designed to be played competitively, with a focus on skill and strategy." },
+    { "tag": "new-player-experience",   "description": "How the game feels while the player is learning the game." }
+  ] }

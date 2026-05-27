@@ -1,0 +1,56 @@
+id: 0
+name: Towerfall Ascension
+platfors:
+  - platform: PS5
+    review_date: 2023-10-01
+    play-this!: versus
+    🔥: [ tutorials, art ] # match duration good, points to win configuration bad
+    💩: dlc-ads:spammy     # dlc:bad aka buy dlc to have worse game.
+    modes:
+      - name: versus
+        players: [ 2, 3, 4 ]
+        overall: 👍🏼
+        🔥:
+          - input-feedback
+          - kill-cam
+          - balance
+          - learning-curve
+          - configurability
+        💩:
+          - dlc:ui-bugs
+          - character-tracking
+      - name: co-op
+        players: [ 1, 2, 3, 4 ]
+          overall: 🫳🏼
+          🔥:
+            - difficulty-selector
+            - enemy-variety
+          💩:
+            - feature-blocking:hard
+  - platform: XBOX
+  - platform: Microsoft Store
+  - platform: Steam
+notes:
+  - Towerfall Ascension branding is a bit of a miss
+  - the name of the game is a bit of a misnomer
+  - 💀 BUYING DLC FUCKS GAME
+
+### Seperate out the reviews for each game
+id: 1
+name: Untitled Goose Game
+platforms:
+  - platform: PS5
+    review_date: 2023-10-01
+    🔥:
+      - tutorial
+      - hidden objectives
+    💩:
+      - 
+    modes:
+      - name: 2-player
+        players: [ 2 ]
+        overall: "👎🏼"
+    notes:
+      - max-zoom is not far enough out for interesting gameplay
+      - player 2 overides player 1's camera controls if conflicting
+      - aditya feeling went from 👍🏼->🫳🏼->👎🏼
